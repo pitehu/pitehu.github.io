@@ -2,61 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Tiancheng Hu</title>
-    <link>https://example.com/publication/</link>
-      <atom:link href="https://example.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://pitehu.github.io/publication/</link>
+      <atom:link href="https://pitehu.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 25 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu43013a9a38f45ad63251af5ca60c1ebe_467278_512x512_fill_lanczos_center_3.png</url>
+      <url>https://pitehu.github.io/media/icon_hu43013a9a38f45ad63251af5ca60c1ebe_467278_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>https://example.com/publication/</link>
+      <link>https://pitehu.github.io/publication/</link>
     </image>
     
     <item>
+      <title>The Causal News Corpus: Annotating Causal Relations in Event Sentences from News</title>
+      <link>https://pitehu.github.io/publication/tan_2022_causal_news/</link>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://pitehu.github.io/publication/tan_2022_causal_news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Drug Re-positioning via Text Augmented Knowledge Graph Embeddings</title>
-      <link>https://example.com/publication/hu_2021_repurposing/</link>
+      <link>https://pitehu.github.io/publication/hu_2021_repurposing/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/hu_2021_repurposing/</guid>
+      <guid>https://pitehu.github.io/publication/hu_2021_repurposing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Discovering Black Lives Matter Events in the United States: Shared Task 3, CASE 2021</title>
-      <link>https://example.com/publication/giorgi-etal-2021-discovering/</link>
+      <link>https://pitehu.github.io/publication/giorgi-etal-2021-discovering/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/giorgi-etal-2021-discovering/</guid>
+      <guid>https://pitehu.github.io/publication/giorgi-etal-2021-discovering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Team NoConflict at CASE 2021 Task 1: Pretraining for Sentence-Level Protest Event Detection</title>
-      <link>https://example.com/publication/hu-stoehr-2021-team/</link>
+      <link>https://pitehu.github.io/publication/hu-stoehr-2021-team/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/hu-stoehr-2021-team/</guid>
+      <guid>https://pitehu.github.io/publication/hu-stoehr-2021-team/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Temporal Head Pose Estimation From Point Cloud in Naturalistic Driving Conditions</title>
-      <link>https://example.com/publication/9425023/</link>
+      <link>https://pitehu.github.io/publication/9425023/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/9425023/</guid>
+      <guid>https://pitehu.github.io/publication/9425023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Multimodal Driver Monitoring Database: A Naturalistic Corpus to Study Driver Attention</title>
-      <link>https://example.com/publication/9507390/</link>
+      <link>https://pitehu.github.io/publication/9507390/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/9507390/</guid>
+      <guid>https://pitehu.github.io/publication/9507390/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robust Driver Head Pose Estimation in Naturalistic Conditions from Point-Cloud Data</title>
-      <link>https://example.com/publication/9304592/</link>
+      <link>https://pitehu.github.io/publication/9304592/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/9304592/</guid>
+      <guid>https://pitehu.github.io/publication/9304592/</guid>
       <description></description>
     </item>
     

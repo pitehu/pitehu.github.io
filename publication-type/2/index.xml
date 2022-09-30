@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Tiancheng Hu</title>
-    <link>https://example.com/publication-type/2/</link>
-      <atom:link href="https://example.com/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://pitehu.github.io/publication-type/2/</link>
+      <atom:link href="https://pitehu.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu43013a9a38f45ad63251af5ca60c1ebe_467278_512x512_fill_lanczos_center_3.png</url>
+      <url>https://pitehu.github.io/media/icon_hu43013a9a38f45ad63251af5ca60c1ebe_467278_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
-      <link>https://example.com/publication-type/2/</link>
+      <link>https://pitehu.github.io/publication-type/2/</link>
     </image>
     
     <item>
       <title>Temporal Head Pose Estimation From Point Cloud in Naturalistic Driving Conditions</title>
-      <link>https://example.com/publication/9425023/</link>
+      <link>https://pitehu.github.io/publication/9425023/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/9425023/</guid>
+      <guid>https://pitehu.github.io/publication/9425023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Multimodal Driver Monitoring Database: A Naturalistic Corpus to Study Driver Attention</title>
-      <link>https://example.com/publication/9507390/</link>
+      <link>https://pitehu.github.io/publication/9507390/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/9507390/</guid>
+      <guid>https://pitehu.github.io/publication/9507390/</guid>
       <description></description>
     </item>
     
