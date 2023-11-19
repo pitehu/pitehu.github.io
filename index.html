@@ -88,6 +88,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -258,6 +262,45 @@
 
   
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=6391555114"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', '6391555114', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -829,13 +872,18 @@
     <h1>Biography</h1>
 
     <div class="article-style">
-      <p>I am a first-year PhD student Computation, Cognition and Language at the <a href="https://ltl.mmll.cam.ac.uk/" target="_blank" rel="noopener">Language Technology Lab</a> at <a href="https://www.cam.ac.uk/" target="_blank" rel="noopener">University of Cambridge</a>, supervised by <a href="https://sites.google.com/site/nhcollier/" target="_blank" rel="noopener">Prof. Nigel Collier</a>.
-My main research interest are natural language processing and computational social science. I am interested in developing and applying NLP methods for social
-science problems.</p>
-<p>Previously, I completed my master&rsquo;s in Electrical Engineering and Information Technology at <a href="https://ethz.ch/en.html" target="_blank" rel="noopener">ETH Zürich</a>. My master&rsquo;s thesis is about quotative usage in U.S political news. It was done at <a href="https://dlab.epfl.ch/" target="_blank" rel="noopener">The Data Science Lab</a> at <a href="https://www.epfl.ch/en/" target="_blank" rel="noopener">EPFL</a>, supervised by <a href="https://manoelhortaribeiro.github.io/" target="_blank" rel="noopener">Manoel Horta Ribeiro</a>, <a href="https://dlab.epfl.ch/people/aspitz/" target="_blank" rel="noopener">Prof. Andreas Spitz</a> and <a href="https://dlab.epfl.ch/people/west/" target="_blank" rel="noopener">Prof. Robert West</a>.</p>
+      <p>I am a <s>first-year</s> second year PhD student Computation, Cognition and Language at the <a href="https://ltl.mmll.cam.ac.uk/" target="_blank" rel="noopener">Language Technology Lab</a> at <a href="https://www.cam.ac.uk/" target="_blank" rel="noopener">University of Cambridge</a>, supervised by <a href="https://sites.google.com/site/nhcollier/" target="_blank" rel="noopener">Prof. Nigel Collier</a>.
+I have broad interests in natural language processing and computational social science. Most recently, my research encompasses two aspects: 1) understanding the inherent biases of LLMs through text generation 2) employing LLMs to understand biased language use in human communication.
+Previously, I completed my master&rsquo;s in Electrical Engineering and Information Technology at <a href="https://ethz.ch/en.html" target="_blank" rel="noopener">ETH Zürich</a>. My master&rsquo;s thesis is about quotative usage in U.S political news. It was done at <a href="https://dlab.epfl.ch/" target="_blank" rel="noopener">The Data Science Lab</a> at <a href="https://www.epfl.ch/en/" target="_blank" rel="noopener">EPFL</a>, supervised by <a href="https://manoelhortaribeiro.github.io/" target="_blank" rel="noopener">Manoel Horta Ribeiro</a>, <a href="https://dlab.epfl.ch/people/aspitz/" target="_blank" rel="noopener">Prof. Andreas Spitz</a> and <a href="https://dlab.epfl.ch/people/west/" target="_blank" rel="noopener">Prof. Robert West</a>.</p>
 <p>I obtained a Bachlor&rsquo;s of Science in Electrical Engineering from <a href="https://www.utdallas.edu/" target="_blank" rel="noopener">The University of Texas at Dallas</a>, advised by <a href="https://personal.utdallas.edu/~busso/" target="_blank" rel="noopener">Prof. Carlos Busso</a>. I worked on driver head pose estimation with 3D data.</p>
-<p>
-  <i class="fas fa-download  pr-1 fa-fw"></i> Here is my <a href="/uploads/Resume.pdf" target="_blank">resumé</a>.</p>
+<h1 id="recent-updates">Recent Updates</h1>
+<ul>
+<li>Dec 2023: Attending GEM &amp; EMNLP 2023 in person. I will present our recent preprint on <a href="https://arxiv.org/abs/2310.15819" target="_blank" rel="noopener">Generative Language Models Exhibit Social Identity Biases</a></li>
+<li>Nov 2023: Attended <a href="https://tada2023.org/" target="_blank" rel="noopener">TADA 2023</a> in Amherst, MA.</li>
+<li>🔥Oct 2023: New preprint out on arxiv about a social psychology driven view of biases in LLMs: <a href="https://arxiv.org/abs/2310.15819" target="_blank" rel="noopener">Generative Language Models Exhibit Social Identity Biases</a></li>
+<li>Jul 2023: Attended <a href="https://www.ic2s2.org/" target="_blank" rel="noopener">IC2S2 2023</a> and presented <a href="https://arxiv.org/abs/2210.15476" target="_blank" rel="noopener">Quotatives Indicate Decline in Objectivity in U.S. Political News</a> and an earlier version of <a href="https://arxiv.org/abs/2310.15819" target="_blank" rel="noopener">Generative Language Models Exhibit Social Identity Biases</a></li>
+<li>Jun 2023: Attended <a href="https://www.icwsm.org/" target="_blank" rel="noopener">ICWSM 2023</a> in Limassol, Cyprus.</li>
+</ul>
 
     </div>
 
@@ -850,7 +898,9 @@ science problems.</p>
           
           <li>Computational Social Science</li>
           
-          <li>Information Retrieval</li>
+          <li>Bias</li>
+          
+          <li>Human-AI Interaction</li>
           
         </ul>
       </div>
@@ -1018,6 +1068,154 @@ science problems.</p>
 
   
 
+  
+    
+      
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Tiancheng Hu</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Co-first authorship"></i>, <span >
+      Yara Kyrychenko</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Co-first authorship"></i>, <span >
+      Steve Rathje</span>, <span >
+      Nigel Collier</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Co-senior authorship"></i>, <span >
+      Sander van der Linden</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Co-senior authorship"></i>, <span >
+      Jon Roozenbeek</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Co-senior authorship"></i>
+  </span>
+  (2023).
+  <a href="/publication/social_identity_bias/">Generative Language Models Exhibit Social Identity Biases</a>.
+  <em>arXiv</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2310.15819" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/social_identity_bias/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.48550/arXiv.2310.15819" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+    
+  
+    
+      
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Tiancheng Hu</span>, <span >
+      Manoel Horta Ribeiro</span>, <span >
+      Robert West</span>, <span >
+      Andreas Spitz</span>
+  </span>
+  (2023).
+  <a href="/publication/quotative/">Quotatives Indicate Decline in Objectivity in US Political News</a>.
+  <em>Proceedings of the International AAAI Conference on Web and Social Media</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ojs.aaai.org/index.php/ICWSM/article/view/22152" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/quotative/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.48550/arXiv.2210.15476" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+    
   
     
       
@@ -1251,149 +1449,6 @@ science problems.</p>
 
     
   
-    
-      
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span class="author-highlighted">
-      Tiancheng Hu</span>, <span >
-      Niklas Stoehr</span>
-  </span>
-  (2021).
-  <a href="/publication/hu-stoehr-2021-team/">Team NoConflict at CASE 2021 Task 1: Pretraining for Sentence-Level Protest Event Detection</a>.
-  <em>Proceedings of the 4th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2021)</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://aclanthology.org/2021.case-1.20" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/hu-stoehr-2021-team/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.18653/v1/2021.case-1.20" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-</p>
-
-  
-  
-</div>
-
-    
-  
-    
-      
-
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span class="author-highlighted">
-      Tiancheng Hu</span>, <span >
-      Sumit Jha</span>, <span >
-      Carlos Busso</span>
-  </span>
-  (2021).
-  <a href="/publication/9425023/">Temporal Head Pose Estimation From Point Cloud in Naturalistic Driving Conditions</a>.
-  <em>IEEE Transactions on Intelligent Transportation Systems</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9425023" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/9425023/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/TITS.2021.3075350" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-</p>
-
-  
-  
-</div>
-
-    
-  
 
   
   
@@ -1424,6 +1479,182 @@ science problems.</p>
     </div>
   </section>
 
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="service" class="home-section wg-experience  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Professional Service</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+<div class="col-12 col-lg-8">
+  <p>Reviewer for ICWSM (2023,2024), CHI (2024)</p>
+
+
+  
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="Aboutme" class="home-section wg-experience  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">About Me</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+<div class="col-12 col-lg-8">
+  <p>I am from Nanjing, China and have lived in Dallas (TX), Zurich, Lausanne and now Cambridge. I enjoy hiking, cooking, and learning about the interplay of politics, language, and society.</p>
+
+
+  
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
 
 
   </div>
@@ -1440,16 +1671,6 @@ science problems.</p>
 
   
 
-  
-  <p class="powered-by">
-    
-      <a href="/privacy/">Privacy Policy</a>
-    
-    
-       &middot; 
-      <a href="/terms/">Terms</a>
-    
-  </p>
   
 
   

@@ -254,6 +254,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=6391555114"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', '6391555114', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -597,9 +636,13 @@
     
       <li><a href="/talk/example-talk/">Example Talk</a></li>
     
-      <li><a href="/publication/tan_2022_causal_news/">The Causal News Corpus: Annotating Causal Relations in Event Sentences from News</a></li>
-    
       <li><a href="/publication/">Publications</a></li>
+    
+      <li><a href="/publication/social_identity_bias/">Generative Language Models Exhibit Social Identity Biases</a></li>
+    
+      <li><a href="/publication/quotative/">Quotatives Indicate Decline in Objectivity in US Political News</a></li>
+    
+      <li><a href="/publication/tan_2022_causal_news/">The Causal News Corpus: Annotating Causal Relations in Event Sentences from News</a></li>
     
       <li><a href="/publication/hu_2021_repurposing/">Drug Re-positioning via Text Augmented Knowledge Graph Embeddings</a></li>
     
@@ -608,10 +651,6 @@
       <li><a href="/publication/giorgi-etal-2021-discovering/">Discovering Black Lives Matter Events in the United States: Shared Task 3, CASE 2021</a></li>
     
       <li><a href="/publication/9507390/">The Multimodal Driver Monitoring Database: A Naturalistic Corpus to Study Driver Attention</a></li>
-    
-      <li><a href="/publication/9425023/">Temporal Head Pose Estimation From Point Cloud in Naturalistic Driving Conditions</a></li>
-    
-      <li><a href="/post/getting-started/">Welcome to Wowchemy, the website builder for Hugo</a></li>
     
   </ul>
   
@@ -631,16 +670,6 @@
 
   
 
-  
-  <p class="powered-by">
-    
-      <a href="/privacy/">Privacy Policy</a>
-    
-    
-       &middot; 
-      <a href="/terms/">Terms</a>
-    
-  </p>
   
 
   

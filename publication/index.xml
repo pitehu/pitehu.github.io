@@ -5,12 +5,28 @@
     <link>https://pitehu.github.io/publication/</link>
       <atom:link href="https://pitehu.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 25 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pitehu.github.io/media/icon_hu43013a9a38f45ad63251af5ca60c1ebe_467278_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://pitehu.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Generative Language Models Exhibit Social Identity Biases</title>
+      <link>https://pitehu.github.io/publication/social_identity_bias/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pitehu.github.io/publication/social_identity_bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quotatives Indicate Decline in Objectivity in US Political News</title>
+      <link>https://pitehu.github.io/publication/quotative/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://pitehu.github.io/publication/quotative/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Causal News Corpus: Annotating Causal Relations in Event Sentences from News</title>
