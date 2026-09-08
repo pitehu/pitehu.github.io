@@ -1,0 +1,1 @@
+{"name":"tiancheng-hu-website","private":true,"type":"module","scripts":{"build":"node _source/build.mjs","dev":"node _source/serve.mjs"}}

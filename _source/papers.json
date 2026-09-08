@@ -1,0 +1,206 @@
+[
+  {
+    "slug": "2026.findings-acl.2104",
+    "title": "Navigating the Alignment-Calibration Trade-off: A Pareto-Superior Frontier via Model Merging",
+    "authors": "Tiancheng Hu, Benjamin Minixhofer, Nigel Collier",
+    "year": 2026,
+    "venue": "Findings of ACL",
+    "url": "https://aclanthology.org/2026.findings-acl.2104/",
+    "bib": "@inproceedings{hu-etal-2026-navigating,\n    title = \"Navigating the Alignment-Calibration Trade-off: A {P}areto-Superior Frontier via Model Merging\",\n    author = \"Hu, Tiancheng  and\n      Minixhofer, Benjamin  and\n      Collier, Nigel\",\n    editor = \"Liakata, Maria  and\n      Moreira, Viviane P.  and\n      Zhang, Jiajun  and\n      Jurgens, David\",\n    booktitle = \"Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026\",\n    month = jul,\n    year = \"2026\",\n    address = \"San Diego, California, United States\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2026.findings-acl.2104/\",\n    doi = \"10.18653/v1/2026.findings-acl.2104\",\n    pages = \"42405--42422\",\n    ISBN = \"979-8-89176-395-1\"\n}\n\n",
+    "featured": true
+  },
+  {
+    "slug": "2026.acl-long.1987",
+    "title": "Value of Information: A Framework for Human–Agent Communication",
+    "authors": "Yijiang River Dong, Tiancheng Hu, Zheng Hui, Caiqi Zhang, Ivan Vulić, Andreea Bobu, Nigel Collier",
+    "year": 2026,
+    "venue": "ACL",
+    "url": "https://aclanthology.org/2026.acl-long.1987/",
+    "bib": "@inproceedings{dong-etal-2026-value,\n    title = \"Value of Information: A Framework for Human{--}Agent Communication\",\n    author = \"Dong, Yijiang River  and\n      Hu, Tiancheng  and\n      Hui, Zheng  and\n      Zhang, Caiqi  and\n      Vuli{\\'c}, Ivan  and\n      Bobu, Andreea  and\n      Collier, Nigel\",\n    editor = \"Liakata, Maria  and\n      Moreira, Viviane P.  and\n      Zhang, Jiajun  and\n      Jurgens, David\",\n    booktitle = \"Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2026\",\n    address = \"San Diego, California, United States\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2026.acl-long.1987/\",\n    doi = \"10.18653/v1/2026.acl-long.1987\",\n    pages = \"42879--42896\",\n    ISBN = \"979-8-89176-390-6\"\n}\n\n",
+    "featured": true
+  },
+  {
+    "slug": "2026.findings-acl.1280",
+    "title": "Confidence Estimation for LLMs in Multi-turn Interactions",
+    "authors": "Caiqi Zhang, Ruihan Yang, Xiaochen Zhu, Chengzu Li, Tiancheng Hu, Yijiang River Dong, Deqing Yang, Nigel Collier",
+    "year": 2026,
+    "venue": "Findings of ACL",
+    "url": "https://aclanthology.org/2026.findings-acl.1280/",
+    "bib": "@inproceedings{zhang-etal-2026-confidence-estimation,\n    title = \"Confidence Estimation for {LLM}s in Multi-turn Interactions\",\n    author = \"Zhang, Caiqi  and\n      Yang, Ruihan  and\n      Zhu, Xiaochen  and\n      Li, Chengzu  and\n      Hu, Tiancheng  and\n      Dong, Yijiang River  and\n      Yang, Deqing  and\n      Collier, Nigel\",\n    editor = \"Liakata, Maria  and\n      Moreira, Viviane P.  and\n      Zhang, Jiajun  and\n      Jurgens, David\",\n    booktitle = \"Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026\",\n    month = jul,\n    year = \"2026\",\n    address = \"San Diego, California, United States\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2026.findings-acl.1280/\",\n    doi = \"10.18653/v1/2026.findings-acl.1280\",\n    pages = \"25661--25676\",\n    ISBN = \"979-8-89176-395-1\"\n}\n\n"
+  },
+  {
+    "slug": "2026.findings-acl.1103",
+    "title": "Decoupling the Effect of Chain-of-Thought Reasoning: A Human Label Variation Perspective",
+    "authors": "Beiduo Chen, Tiancheng Hu, Caiqi Zhang, Robert Litschko, Anna Korhonen, Barbara Plank",
+    "year": 2026,
+    "venue": "Findings of ACL",
+    "url": "https://aclanthology.org/2026.findings-acl.1103/",
+    "bib": "@inproceedings{chen-etal-2026-decoupling,\n    title = \"Decoupling the Effect of Chain-of-Thought Reasoning: A Human Label Variation Perspective\",\n    author = \"Chen, Beiduo  and\n      Hu, Tiancheng  and\n      Zhang, Caiqi  and\n      Litschko, Robert  and\n      Korhonen, Anna  and\n      Plank, Barbara\",\n    editor = \"Liakata, Maria  and\n      Moreira, Viviane P.  and\n      Zhang, Jiajun  and\n      Jurgens, David\",\n    booktitle = \"Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026\",\n    month = jul,\n    year = \"2026\",\n    address = \"San Diego, California, United States\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2026.findings-acl.1103/\",\n    doi = \"10.18653/v1/2026.findings-acl.1103\",\n    pages = \"21931--21951\",\n    ISBN = \"979-8-89176-395-1\"\n}\n\n"
+  },
+  {
+    "slug": "2026.acl-long.2111",
+    "title": "TRACE: A Corpus of Team Creative Discussions",
+    "authors": "Yixuan Jiang, Tiancheng Hu, Jose Hernandez-Orallo, David Stillwell, Luning Sun",
+    "year": 2026,
+    "venue": "ACL",
+    "url": "https://aclanthology.org/2026.acl-long.2111/",
+    "bib": "@inproceedings{jiang-etal-2026-trace,\n    title = \"{TRACE}: A Corpus of Team Creative Discussions\",\n    author = \"Jiang, Yixuan  and\n      Hu, Tiancheng  and\n      Hernandez-Orallo, Jose  and\n      Stillwell, David  and\n      Sun, Luning\",\n    editor = \"Liakata, Maria  and\n      Moreira, Viviane P.  and\n      Zhang, Jiajun  and\n      Jurgens, David\",\n    booktitle = \"Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2026\",\n    address = \"San Diego, California, United States\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2026.acl-long.2111/\",\n    doi = \"10.18653/v1/2026.acl-long.2111\",\n    pages = \"45535--45552\",\n    ISBN = \"979-8-89176-390-6\"\n}\n\n"
+  },
+  {
+    "slug": "social_identity_bias",
+    "title": "Generative Language Models Exhibit Social Identity Biases",
+    "authors": "Tiancheng Hu, Yara Kyrychenko, Steve Rathje, Nigel Collier, Sander van der Linden, Jon Roozenbeek",
+    "year": 2025,
+    "venue": "Nature Computational Science",
+    "url": "https://www.nature.com/articles/s43588-024-00741-1",
+    "bib": "@article{hu2025socialidentity,\n  title = {Generative language models exhibit social identity biases},\n  author = {Hu, Tiancheng and Kyrychenko, Yara and Rathje, Steve and Collier, Nigel and van der Linden, Sander and Roozenbeek, Jon},\n  journal = {Nature Computational Science},\n  volume = {5},\n  pages = {65--75},\n  year = {2025},\n  doi = {10.1038/s43588-024-00741-1}\n}",
+    "featured": true
+  },
+  {
+    "slug": "2025.acl-long.1217",
+    "title": "iNews: A Multimodal Dataset for Modeling Personalized Affective Responses to News",
+    "authors": "Tiancheng Hu, Nigel Collier",
+    "year": 2025,
+    "venue": "ACL",
+    "url": "https://aclanthology.org/2025.acl-long.1217/",
+    "bib": "@inproceedings{hu-collier-2025-inews,\n    title = \"i{N}ews: A Multimodal Dataset for Modeling Personalized Affective Responses to News\",\n    author = \"Hu, Tiancheng  and\n      Collier, Nigel\",\n    editor = \"Che, Wanxiang  and\n      Nabende, Joyce  and\n      Shutova, Ekaterina  and\n      Pilehvar, Mohammad Taher\",\n    booktitle = \"Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2025\",\n    address = \"Vienna, Austria\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.acl-long.1217/\",\n    doi = \"10.18653/v1/2025.acl-long.1217\",\n    pages = \"25000--25040\",\n    ISBN = \"979-8-89176-251-0\"\n}\n\n",
+    "featured": true
+  },
+  {
+    "slug": "2025.emnlp-main.1726",
+    "title": "Personalization up to a Point: Why Personalized Content Moderation Needs Boundaries, and How We Can Enforce Them",
+    "authors": "Emanuele Moscato, Tiancheng Hu, Matthias Orlikowski, Paul Röttger, Debora Nozza",
+    "year": 2025,
+    "venue": "EMNLP",
+    "url": "https://aclanthology.org/2025.emnlp-main.1726/",
+    "bib": "@inproceedings{moscato-etal-2025-personalization,\n    title = \"Personalization up to a Point: Why Personalized Content Moderation Needs Boundaries, and How We Can Enforce Them\",\n    author = {Moscato, Emanuele  and\n      Hu, Tiancheng  and\n      Orlikowski, Matthias  and\n      R{\\\"o}ttger, Paul  and\n      Nozza, Debora},\n    editor = \"Christodoulopoulos, Christos  and\n      Chakraborty, Tanmoy  and\n      Rose, Carolyn  and\n      Peng, Violet\",\n    booktitle = \"Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing\",\n    month = nov,\n    year = \"2025\",\n    address = \"Suzhou, China\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.emnlp-main.1726/\",\n    doi = \"10.18653/v1/2025.emnlp-main.1726\",\n    pages = \"34015--34029\",\n    ISBN = \"979-8-89176-332-6\"\n}\n\n"
+  },
+  {
+    "slug": "2025.emnlp-main.1408",
+    "title": "Scaling Low-Resource MT via Synthetic Data Generation with LLMs",
+    "authors": "Ona de Gibert, Joseph Attieh, Teemu Vahtola, Mikko Aulamo, Zihao Li, Raúl Vázquez, Tiancheng Hu, Jörg Tiedemann",
+    "year": 2025,
+    "venue": "EMNLP",
+    "url": "https://aclanthology.org/2025.emnlp-main.1408/",
+    "bib": "@inproceedings{de-gibert-etal-2025-scaling,\n    title = \"Scaling Low-Resource {MT} via Synthetic Data Generation with {LLM}s\",\n    author = {de Gibert, Ona  and\n      Attieh, Joseph  and\n      Vahtola, Teemu  and\n      Aulamo, Mikko  and\n      Li, Zihao  and\n      V{\\'a}zquez, Ra{\\'u}l  and\n      Hu, Tiancheng  and\n      Tiedemann, J{\\\"o}rg},\n    editor = \"Christodoulopoulos, Christos  and\n      Chakraborty, Tanmoy  and\n      Rose, Carolyn  and\n      Peng, Violet\",\n    booktitle = \"Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing\",\n    month = nov,\n    year = \"2025\",\n    address = \"Suzhou, China\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.emnlp-main.1408/\",\n    doi = \"10.18653/v1/2025.emnlp-main.1408\",\n    pages = \"27674--27692\",\n    ISBN = \"979-8-89176-332-6\"\n}\n\n"
+  },
+  {
+    "slug": "2025.findings-emnlp.916",
+    "title": "When Personalization Meets Reality: A Multi-Faceted Analysis of Personalized Preference Learning",
+    "authors": "Yijiang River Dong, Tiancheng Hu, Yinhong Liu, Ahmet Üstün, Nigel Collier",
+    "year": 2025,
+    "venue": "Findings of EMNLP",
+    "url": "https://aclanthology.org/2025.findings-emnlp.916/",
+    "bib": "@inproceedings{dong-etal-2025-personalization,\n    title = \"When Personalization Meets Reality: A Multi-Faceted Analysis of Personalized Preference Learning\",\n    author = {Dong, Yijiang River  and\n      Hu, Tiancheng  and\n      Liu, Yinhong  and\n      {\\\"U}st{\\\"u}n, Ahmet  and\n      Collier, Nigel},\n    editor = \"Christodoulopoulos, Christos  and\n      Chakraborty, Tanmoy  and\n      Rose, Carolyn  and\n      Peng, Violet\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2025\",\n    month = nov,\n    year = \"2025\",\n    address = \"Suzhou, China\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.findings-emnlp.916/\",\n    doi = \"10.18653/v1/2025.findings-emnlp.916\",\n    pages = \"16880--16894\",\n    ISBN = \"979-8-89176-335-7\"\n}\n\n"
+  },
+  {
+    "slug": "2024.acl-long.554",
+    "title": "Quantifying the Persona Effect in LLM Simulations",
+    "authors": "Tiancheng Hu, Nigel Collier",
+    "year": 2024,
+    "venue": "ACL",
+    "url": "https://aclanthology.org/2024.acl-long.554/",
+    "bib": "@inproceedings{hu-collier-2024-quantifying,\n    title = \"Quantifying the Persona Effect in {LLM} Simulations\",\n    author = \"Hu, Tiancheng  and\n      Collier, Nigel\",\n    editor = \"Ku, Lun-Wei  and\n      Martins, Andre  and\n      Srikumar, Vivek\",\n    booktitle = \"Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = aug,\n    year = \"2024\",\n    address = \"Bangkok, Thailand\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.acl-long.554/\",\n    doi = \"10.18653/v1/2024.acl-long.554\",\n    pages = \"10289--10307\"\n}\n\n",
+    "featured": true
+  },
+  {
+    "slug": "2024.findings-emnlp.592",
+    "title": "Can LLM be a Personalized Judge?",
+    "authors": "Yijiang River Dong, Tiancheng Hu, Nigel Collier",
+    "year": 2024,
+    "venue": "Findings of EMNLP",
+    "url": "https://aclanthology.org/2024.findings-emnlp.592/",
+    "bib": "@inproceedings{dong-etal-2024-llm,\n    title = \"Can {LLM} be a Personalized Judge?\",\n    author = \"Dong, Yijiang River  and\n      Hu, Tiancheng  and\n      Collier, Nigel\",\n    editor = \"Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2024\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.findings-emnlp.592/\",\n    doi = \"10.18653/v1/2024.findings-emnlp.592\",\n    pages = \"10126--10141\"\n}\n\n"
+  },
+  {
+    "slug": "2024.findings-emnlp.515",
+    "title": "Can Language Models Recognize Convincing Arguments?",
+    "authors": "Paula Rescala, Manoel Horta Ribeiro, Tiancheng Hu, Robert West",
+    "year": 2024,
+    "venue": "Findings of EMNLP",
+    "url": "https://aclanthology.org/2024.findings-emnlp.515/",
+    "bib": "@inproceedings{rescala-etal-2024-language,\n    title = \"Can Language Models Recognize Convincing Arguments?\",\n    author = \"Rescala, Paula  and\n      Ribeiro, Manoel Horta  and\n      Hu, Tiancheng  and\n      West, Robert\",\n    editor = \"Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2024\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.findings-emnlp.515/\",\n    doi = \"10.18653/v1/2024.findings-emnlp.515\",\n    pages = \"8826--8837\"\n}\n\n"
+  },
+  {
+    "slug": "2024.findings-emnlp.513",
+    "title": "The Potential and Challenges of Evaluating Attitudes, Opinions, and Values in Large Language Models",
+    "authors": "Bolei Ma, Xinpeng Wang, Tiancheng Hu, Anna-Carolina Haensch, Michael A. Hedderich, Barbara Plank, Frauke Kreuter",
+    "year": 2024,
+    "venue": "Findings of EMNLP",
+    "url": "https://aclanthology.org/2024.findings-emnlp.513/",
+    "bib": "@inproceedings{ma-etal-2024-potential,\n    title = \"The Potential and Challenges of Evaluating Attitudes, Opinions, and Values in Large Language Models\",\n    author = \"Ma, Bolei  and\n      Wang, Xinpeng  and\n      Hu, Tiancheng  and\n      Haensch, Anna-Carolina  and\n      Hedderich, Michael A.  and\n      Plank, Barbara  and\n      Kreuter, Frauke\",\n    editor = \"Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2024\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.findings-emnlp.513/\",\n    doi = \"10.18653/v1/2024.findings-emnlp.513\",\n    pages = \"8783--8805\"\n}\n\n"
+  },
+  {
+    "slug": "quotative",
+    "title": "Quotatives Indicate Decline in Objectivity in US Political News",
+    "authors": "Tiancheng Hu, Manoel Horta Ribeiro, Robert West, Andreas Spitz",
+    "year": 2023,
+    "venue": "ICWSM",
+    "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/22152",
+    "bib": "@article{Hu_Horta Ribeiro_West_Spitz_2023, title={Quotatives Indicate Decline in Objectivity in U.S. Political News}, volume={17}, url={https://ojs.aaai.org/index.php/ICWSM/article/view/22152}, DOI={10.1609/icwsm.v17i1.22152}, abstractNote={According to journalistic standards, direct quotes should be attributed to sources with objective quotatives such as ``said’’ and ``told,’’ since nonobjective quotatives, e.g., ``argued’’ and ``insisted,’’ would influence the readers’ perception of the quote and the quoted person. In this paper, we analyze the adherence to this journalistic norm to study trends in objectivity in political news across U.S. outlets of different ideological leanings. We ask: 1) How has the usage of nonobjective quotatives evolved? 2) How do news outlets use nonobjective quotatives when covering politicians of different parties? To answer these questions, we developed a dependency-parsing-based method to extract quotatives and applied it to Quotebank, a web-scale corpus of attributed quotes, obtaining nearly 7 million quotes, each enriched with the quoted speaker’s political party and the ideological leaning of the outlet that published the quote. We find that, while partisan outlets are the ones that most often use nonobjective quotatives, between 2013 and 2020, the outlets that increased their usage of nonobjective quotatives the most were ``moderate’’ centrist news outlets (around 0.6 percentage points, or 20% in relative percentage over seven years). Further, we find that outlets use nonobjective quotatives more often when quoting politicians of the opposing ideology (e.g., left-leaning outlets quoting Republicans) and that this ``quotative bias’’ is rising at a swift pace, increasing up to 0.5 percentage points, or 25% in relative percentage, per year. These findings suggest an overall decline in journalistic objectivity in U.S. political news.}, number={1}, journal={Proceedings of the International AAAI Conference on Web and Social Media}, author={Hu, Tiancheng and Horta Ribeiro, Manoel and West, Robert and Spitz, Andreas}, year={2023}, month={Jun.}, pages={363-374} }",
+    "featured": true
+  },
+  {
+    "slug": "tan_2022_causal_news",
+    "title": "The Causal News Corpus: Annotating Causal Relations in Event Sentences from News",
+    "authors": "Fiona Anting Tan, Ali Hürriyetoğlu, Tommaso Caselli, Nelleke Oostdijk, Tadashi Nomoto, Hansi Hettiarachchi, Iqra Ameer, Onur Uca, Farhana Ferdousi Liza, Farhana Ferdousi Liza, Tiancheng Hu",
+    "year": 2022,
+    "venue": "LREC",
+    "url": "https://arxiv.org/abs/2204.11714",
+    "bib": "@InProceedings{tan-EtAl:2022:LREC,\n  author    = {Tan, Fiona Anting  and  HÃ¼rriyetoÄŸlu, Ali  and  Caselli, Tommaso  and  Oostdijk, Nelleke  and  Nomoto, Tadashi  and  Hettiarachchi, Hansi  and  Ameer, Iqra  and  Uca, Onur  and  Liza, Farhana Ferdousi  and  Hu, Tiancheng},\n  title     = {The Causal News Corpus: Annotating Causal Relations in Event Sentences from News},\n  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},\n  month          = {June},\n  year           = {2022},\n  address        = {Marseille, France},\n  publisher      = {European Language Resources Association},\n  pages     = {2298--2310},\n  abstract  = {Despite the importance of understanding causality, corpora addressing causal relations are limited. There is a discrepancy between existing annotation guidelines of event causality and conventional causality corpora that focus more on linguistics. Many guidelines restrict themselves to include only explicit relations or clause-based arguments. Therefore, we propose an annotation schema for event causality that addresses these concerns. We annotated 3,559 event sentences from protest event news with labels on whether it contains causal relations or not. Our corpus is known as the Causal News Corpus (CNC). A neural network built upon a state-of-the-art pre-trained language model performed well with 81.20\\% F1 score on test set, and 83.46\\% in 5-folds cross-validation. CNC is transferable across two external corpora: CausalTimeBank (CTB) and Penn Discourse Treebank (PDTB). Leveraging each of these external datasets for training, we achieved up to approximately 64\\% F1 on the CNC test set without additional fine-tuning. CNC also served as an effective training and pre-training dataset for the two external corpora. Lastly, we demonstrate the difficulty of our task to the layman in a crowd-sourced annotation exercise. Our annotated corpus is publicly available, providing a valuable resource for causal text mining researchers.},\n  url       = {https://aclanthology.org/2022.lrec-1.246}\n}\n"
+  },
+  {
+    "slug": "giorgi-etal-2021-discovering",
+    "title": "Discovering Black Lives Matter Events in the United States: Shared Task 3, CASE 2021",
+    "authors": "Salvatore Giorgi, Vanni Zavarella, Hristo Tanev, Nicolas Stefanovitch, Sy Hwang, Hansi Hettiarachchi, Tharindu Ranasinghe, Vivek Kalyan, Paul Tan, Shaun Tan, Martin Andrews, Tiancheng Hu, Niklas Stoehr, Francesco Ignazio Re, Daniel Vegh, Dennis Atzenhofer, Brenda Curtis, Ali Hürriyetoğlu",
+    "year": 2021,
+    "venue": "CASE at ACL-IJCNLP",
+    "url": "https://aclanthology.org/2021.case-1.27",
+    "bib": "@inproceedings{giorgi-etal-2021-discovering,\n abstract = {Evaluating the state-of-the-art event detection systems on determining spatio-temporal distribution of the events on the ground is performed unfrequently. But, the ability to both (1) extract events ``in the wild″ from text and (2) properly evaluate event detection systems has potential to support a wide variety of tasks such as monitoring the activity of socio-political movements, examining media coverage and public support of these movements, and informing policy decisions. Therefore, we study performance of the best event detection systems on detecting Black Lives Matter (BLM) events from tweets and news articles. The murder of George Floyd, an unarmed Black man, at the hands of police officers received global attention throughout the second half of 2020. Protests against police violence emerged worldwide and the BLM movement, which was once mostly regulated to the United States, was now seeing activity globally. This shared task asks participants to identify BLM related events from large unstructured data sources, using systems pretrained to extract socio-political events from text. We evaluate several metrics, accessing each system′s ability to identify protest events both temporally and spatially. Results show that identifying daily protest counts is an easier task than classifying spatial and temporal protest trends simultaneously, with maximum performance of 0.745 and 0.210 (Pearson $r$), respectively. Additionally, all baselines and participant systems suffered from low recall, with a maximum recall of 5.08.},\n address = {Online},\n author = {Giorgi, Salvatore  and\nZavarella, Vanni  and\nTanev, Hristo  and\nStefanovitch, Nicolas  and\nHwang, Sy  and\nHettiarachchi, Hansi  and\nRanasinghe, Tharindu  and\nKalyan, Vivek  and\nTan, Paul  and\nTan, Shaun  and\nAndrews, Martin  and\nHu, Tiancheng  and\nStoehr, Niklas  and\nRe, Francesco Ignazio  and\nVegh, Daniel  and\nAtzenhofer, Dennis  and\nCurtis, Brenda  and\nHürriyetoğlu, Ali},\n booktitle = {Proceedings of the 4th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2021)},\n doi = {10.18653/v1/2021.case-1.27},\n month = {August},\n pages = {218--227},\n publisher = {Association for Computational Linguistics},\n title = {Discovering Black Lives Matter Events in the United States: Shared Task 3, CASE 2021},\n url = {https://aclanthology.org/2021.case-1.27},\n year = {2021}\n}\n\n"
+  },
+  {
+    "slug": "hu_2021_repurposing",
+    "title": "Drug Re-positioning via Text Augmented Knowledge Graph Embeddings",
+    "authors": "Mian Zhong, Tiancheng Hu, Ying Jiao, Shehzaad Zuzar Dhuliawala, Bipin Singh",
+    "year": 2021,
+    "venue": "NeurIPS 2021 Workshop AI4Science",
+    "url": "https://openreview.net/forum?id=qI-IS8DPq_N",
+    "bib": "@inproceedings{zhong2021drug,\n  title={Drug Repositioning via Text Augmented Knowledge Graph Embeddings},\n  author={Zhong, Mian and Hu, Tiancheng and Jiao, Ying and Dhuliawala, Shehzaad Zuzar and Singh, Bipin},\n  booktitle={NeurIPS 2021 AI for Science Workshop},\n  year={2021}\n}"
+  },
+  {
+    "slug": "hu-stoehr-2021-team",
+    "title": "Team NoConflict at CASE 2021 Task 1: Pretraining for Sentence-Level Protest Event Detection",
+    "authors": "Tiancheng Hu, Niklas Stoehr",
+    "year": 2021,
+    "venue": "Proceedings of the 4th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2021)",
+    "url": "https://aclanthology.org/2021.case-1.20",
+    "bib": "@inproceedings{hu-stoehr-2021-team,\n abstract = {An ever-increasing amount of text, in the form of social media posts and news articles, gives rise to new challenges and opportunities for the automatic extraction of socio-political events. In this paper, we present our submission to the Shared Tasks on Socio-Political and Crisis Events Detection, Task 1, Multilingual Protest News Detection, Subtask 2, Event Sentence Classification, of CASE @ ACL-IJCNLP 2021. In our submission, we utilize the RoBERTa model with additional pretraining, and achieve the best F1 score of 0.8532 in event sentence classification in English and the second-best F1 score of 0.8700 in Portuguese via simple translation. We analyze the failure cases of our model. We also conduct an ablation study to show the effect of choosing the right pretrained language model, adding additional training data and data augmentation.},\n address = {Online},\n author = {Hu, Tiancheng  and\nStoehr, Niklas},\n booktitle = {Proceedings of the 4th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2021)},\n doi = {10.18653/v1/2021.case-1.20},\n month = {August},\n pages = {152--160},\n publisher = {Association for Computational Linguistics},\n title = {Team ``NoConflict″ at CASE 2021 Task 1: Pretraining for Sentence-Level Protest Event Detection},\n url = {https://aclanthology.org/2021.case-1.20},\n year = {2021}\n}\n\n"
+  },
+  {
+    "slug": "9425023",
+    "title": "Temporal Head Pose Estimation From Point Cloud in Naturalistic Driving Conditions",
+    "authors": "Tiancheng Hu, Sumit Jha, Carlos Busso",
+    "year": 2021,
+    "venue": "IEEE Transactions on Intelligent Transportation Systems",
+    "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9425023",
+    "bib": "@article{9425023,\n author = {Hu, Tiancheng and Jha, Sumit and Busso, Carlos},\n doi = {10.1109/TITS.2021.3075350},\n journal = {IEEE Transactions on Intelligent Transportation Systems},\n number = {},\n pages = {1-14},\n title = {Temporal Head Pose Estimation From Point Cloud in Naturalistic Driving Conditions},\n volume = {},\n year = {2021}\n}\n\n"
+  },
+  {
+    "slug": "9507390",
+    "title": "The Multimodal Driver Monitoring Database: A Naturalistic Corpus to Study Driver Attention",
+    "authors": "Sumit Jha, Mohamed F. Marzban, Tiancheng Hu, Mohamed H. Mahmoud, Naofal Al-Dhahir, Carlos Busso",
+    "year": 2021,
+    "venue": "IEEE Transactions on Intelligent Transportation Systems",
+    "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9507390",
+    "bib": "@article{9507390,\n author = {Jha, Sumit and Marzban, Mohamed F. and Hu, Tiancheng and Mahmoud, Mohamed H. and Al-Dhahir, Naofal and Busso, Carlos},\n doi = {10.1109/TITS.2021.3095462},\n journal = {IEEE Transactions on Intelligent Transportation Systems},\n number = {},\n pages = {1-17},\n title = {The Multimodal Driver Monitoring Database: A Naturalistic Corpus to Study Driver Attention},\n volume = {},\n year = {2021}\n}\n\n"
+  },
+  {
+    "slug": "9304592",
+    "title": "Robust Driver Head Pose Estimation in Naturalistic Conditions from Point-Cloud Data",
+    "authors": "Tiancheng Hu, Sumit Jha, Carlos Busso",
+    "year": 2020,
+    "venue": "2020 IEEE Intelligent Vehicles Symposium (IV)",
+    "url": "https://ecs.utdallas.edu/research/researchlabs/msp-lab/publications/Hu_2020.pdf",
+    "bib": "@inproceedings{9304592,\n author = {Hu, Tiancheng and Jha, Sumit and Busso, Carlos},\n booktitle = {2020 IEEE Intelligent Vehicles Symposium (IV)},\n doi = {10.1109/IV47402.2020.9304592},\n number = {},\n pages = {1176-1182},\n title = {Robust Driver Head Pose Estimation in Naturalistic Conditions from Point-Cloud Data},\n volume = {},\n year = {2020}\n}\n\n"
+  }
+]
